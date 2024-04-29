@@ -10,3 +10,6 @@ class Personaje: #ora si papa!!! pygame con clases (POO)
          #bueno a ver creo que : esa funcion dice :
          #pygame.dibujar.el rectagulito (donde monda dibujo? (una  interfaz o ventanita xd),
          # de que color e?, y que dibujo? (la forma que ya cree))
+    def move(self, delta_x, delta_y):
+        self.shape.x += delta_x            #funcion para mover a cuadrito 5 px hacia algun lado segun las variables deta_tin
+        self.shape.y += delta_y            
